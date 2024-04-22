@@ -22,7 +22,7 @@ class TetrisGame:
         self.screen = pygame.display.set_mode((500, 620))
         pygame.display.set_caption("Tetris Game")
         
-        self.soundtrack = pygame.mixer.Sound(f'sound/bgm.mp3')
+        self.soundtrack = pygame.mixer.Sound(f'detail/bgm.mp3')
         self.soundtrack.set_volume(0.4)
         self.soundtrack.play(-1)
         self.clock = pygame.time.Clock()

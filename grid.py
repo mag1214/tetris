@@ -2,7 +2,7 @@ import pygame
 from colors import Colors
 class Grid:
 	def __init__(self):
-		self.landing_sound = pygame.mixer.Sound('sound/break.mp3')
+		self.landing_sound = pygame.mixer.Sound('detail/break.mp3')
 		self.landing_sound.set_volume(0.2)
 		self.num_rows = 20
 		self.num_cols = 10

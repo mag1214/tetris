@@ -12,7 +12,7 @@ class Game:
 		self.next_block =self.get_random_block()
 		self.game_over = False
 		self.score = 0
-		self.break_sound = pygame.mixer.Sound('sound/break.mp3')
+		self.break_sound = pygame.mixer.Sound('detail/break.mp3')
 		self.break_sound.set_volume(0.7)
 
 	#Cập nhật điểm số(số hàng được lắp đầy , số điểm)
